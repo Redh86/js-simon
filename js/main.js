@@ -12,7 +12,7 @@ $(document).ready(function(){
 
     document.getElementById("mem_num").innerHTML= rdmArray;
 
-    setTimeout(hideObj, 3000);
+    setTimeout(hideObj, 30000);
  
     setTimeout(function(){
 
@@ -22,7 +22,7 @@ $(document).ready(function(){
                 utnArray.push(utnNum);
             }                       
         }   alert("HAI INDOVINATO " + utnArray.length + " NUMERI OVVERO: " + utnArray);   
-    }, 3500);
+    }, 35000);
    
 });
 
